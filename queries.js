@@ -6,7 +6,7 @@ const pool = new Pool({
   host: "",
   database: "",
   password: "",
-  port: 5432
+  port: ""
 });
 
 const getUsers = (req, res) => {
